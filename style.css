@@ -124,3 +124,64 @@ body {
   font-weight: 400;
   margin-bottom: 32px;
 }
+/* Experience Section Start  */
+.experience {
+}
+.display-flex h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-left: 1.5rem;
+  border-left: 5px solid rgba(255, 144, 14, 1);
+  margin-bottom: 25px;
+}
+.display-flex p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.experience .display-flex .card {
+  max-width: 586px;
+  padding: 30px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.experience .display-flex .card:last-child {
+  margin-bottom: 0;
+}
+.experience .display-flex .special {
+  max-width: 586px;
+  padding: 30px;
+  margin-right: 145px;
+}
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.image-l img {
+  width: 100%;
+  margin-top: 60px;
+}
+.image-l .experience-btn {
+  background-color: rgba(255, 144, 14, 1);
+  padding: 1rem 2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.image-l .experience-btn h3 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.image-l .experience-btn p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
