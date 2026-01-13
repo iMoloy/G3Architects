@@ -18,6 +18,18 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.gap {
+  margin-bottom: 130px;
+}
+.btn {
+  background-color: rgba(255, 144, 14, 1);
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 .color-gray {
   color: rgba(66, 66, 66, 1);
 }
@@ -30,8 +42,11 @@
 .color-dark2 {
   color: rgba(66, 66, 66, 1);
 }
+.color-dark3 {
+  color: rgba(114, 114, 114, 1);
+}
 .bg-color {
-  background-color: rgba(255, 144, 14, 0.1);
+  background: rgba(255, 144, 14, 0.1);
 }
 
 /* Main Style */
@@ -42,6 +57,7 @@ body {
 .navbar {
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
 }
 .nav-links {
   list-style: none;
@@ -55,3 +71,30 @@ body {
   font-size: 3rem;
   font-weight: bold;
 }
+/* Banner Section Start  */
+.banner-section {
+  margin-bottom: 50px;
+}
+.banner-tittle {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-tittle h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner-tittle p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.banner-tittle button {
+  margin-bottom: 30px;
+}
+.banner-tittle img {
+  width: 100%;
+}
+/* Features Section start  */
