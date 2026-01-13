@@ -98,3 +98,29 @@ body {
   width: 100%;
 }
 /* Features Section start  */
+.features {
+  align-items: center;
+  margin-top: 80px;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.about {
+  margin-left: 73px;
+  max-width: 537px;
+}
+.about h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+.about h2 .color-dark3 {
+  font-weight: 400;
+}
+.about p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
