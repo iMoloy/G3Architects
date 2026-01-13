@@ -185,3 +185,38 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
 }
+/*  Facts Section Start */
+.facts h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.facts p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.facts-box {
+  gap: 125px;
+  justify-content: space-around;
+  align-items: center;
+}
+.facts-card {
+  border: 1px solid rgba(255, 144, 14, 1);
+  border-radius: 8px;
+  max-width: 240px;
+  max-height: 240px;
+  padding: 35px 90px 0px;
+  text-align: center;
+}
+.facts-card img {
+  width: 3rem;
+}
+.facts-card h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.facts-card p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
