@@ -220,3 +220,21 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
 }
+/* Sponsors Section Start  */
+.sponsor {
+  text-align: center;
+}
+.sponsor div {
+  justify-content: space-around;
+  filter: grayscale(100%);
+}
+.sponsor h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.sponsor p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
